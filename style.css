@@ -1,0 +1,78 @@
+body, ul, li {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  display: flex;
+}
+.container .sidebar {
+  width: 10%;
+  min-width: 150px;
+  height: 100vh;
+  background-color: #191818;
+}
+.container .sidebar ul {
+  color: #fff;
+}
+.container .sidebar ul li {
+  list-style: none;
+  padding: 10px 20px;
+  border-bottom: 1px solid;
+}
+.container .content {
+  width: 90%;
+  height: 100vh;
+  text-align: center;
+}
+.container .content .top {
+  display: block;
+  margin: 20px 100px;
+}
+.container .content .top img {
+  margin: 20px 0;
+}
+.container .content .top .lorem {
+  background: #efefef;
+  padding: 30px 100px;
+}
+.container .content .top .lorem .title {
+  font-weight: bold;
+}
+.container .content .mid {
+  margin: 20px 100px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.container .content .mid .box {
+  margin-left: 20px;
+}
+.container .content .mid .box-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.container .content .mid .box-content {
+  height: 200px;
+  text-align: left;
+}
+.container .content .mid .box-content img {
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin: 0 20px 10px 0;
+}
+.container .content .bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: left;
+  height: 5vh;
+  border-top: 1px solid #efefef;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  font-size: 0.8rem;
+}
+
+/*# sourceMappingURL=style.css.map */
